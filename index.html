@@ -97,6 +97,51 @@
         <p><b>Free site visit.</b> Not sure what you need? We will come and look at your plot, at no cost.</p>
       </aside>
 
+            <!-- ============ QUOTE FORM ============ -->
+      <section id="quote">
+        <h2>Get a quote</h2>
+        <p class="intro">Tell us about the job and we will call you back the same day.</p>
+
+        <form action="/action.php">
+          <p>
+            <label for="name">Your name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter name">
+          </p>
+
+          <p>
+            <label for="phone">Phone number</label><br>
+            <input type="text" id="phone" name="phone" placeholder="10-digit mobile number">
+          </p>
+
+          <p>
+            <label for="city">City</label><br>
+            <select name="city" id="city">
+              <option value="Bengaluru">Bengaluru</option>
+              <option value="Mysuru">Mysuru</option>
+              <option value="Tumakuru">Tumakuru</option>
+            </select>
+          </p>
+
+          <p>Machine needed:<br>
+            <label for="m1"><input type="radio" name="machine" id="m1" value="mini"> Mini excavator</label>
+            <label for="m2"><input type="radio" name="machine" id="m2" value="jcb"> JCB</label>
+            <label for="m3"><input type="radio" name="machine" id="m3" value="tipper"> Tipper</label>
+          </p>
+
+          <p>Extras:<br>
+            <label for="e1"><input type="checkbox" name="extra" id="e1" value="visit"> Free site visit</label>
+            <label for="e2"><input type="checkbox" name="extra" id="e2" value="debris"> Debris removal</label>
+          </p>
+
+          <p>
+            <label for="details">Job details</label><br>
+            <textarea name="details" id="details" placeholder="Plot size, depth needed, start date"></textarea>
+          </p>
+
+          <button type="submit" class="btn">Send request</button>
+        </form>
+      </section>
+
     </main>
 
   </body>
