@@ -1,8 +1,9 @@
-/* ===== Universal selector ===== */
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;   }
+  box-sizing: border-box;   
+}
 
 body {
   font-family: Verdana, Arial, sans-serif;
@@ -13,7 +14,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: Georgia, "Times New Roman", serif;  /* serif font */
+  font-family: Georgia, "Times New Roman", serif;  
   line-height: 1.2;
 }
 
@@ -21,3 +22,39 @@ a {
   text-decoration: none;
 }
 
+/* ===== HEADER / NAVBAR ===== */
+header {
+  position: sticky;        
+  top: 0;
+  z-index: 10;          
+  height: 60px;
+  background-color: #26241f;
+  display: flex;         
+  justify-content: space-between;
+  align-items: center;            
+  padding: 0 5%;          
+}
+
+.logo {
+  color: white;
+  font-size: 25px;          
+}
+
+.logo b {
+  color: #f5b700;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  color: #e9e7e2;
+  transition: color 0.3s ease-in;
+}
+
+nav a:hover {
+  color: #f5b700;
+}
