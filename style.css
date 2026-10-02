@@ -1,0 +1,23 @@
+/* ===== Universal selector ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   }
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1rem;          
+  line-height: 1.6;
+  color: #26241f;          
+  background-color: #e9e7e2;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;  /* serif font */
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
